@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            height: 500px;
+            width: 700px;
+        }
+        td {
+            border: 1px solid black;
+        }
+        #gray {
+            background-color: rgb(0, 246, 184);
+        }
+        #green {
+            background-color: rgb(61, 226, 39);
+        }
+        #skyblue {
+            background-color: lightseagreen;
+        }
+        #gray {
+            background-color: lightgray;
+        }
+        #orange {
+            background-color: orange;
+        }
+        #pink {
+            background-color: rgb(197, 7, 191)
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="3" id="gray"></td>
+            <td></td>
+            <td rowspan="3" id="green"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2" id="skyblue"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2" id="pink"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="gray"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="3" id="orange"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
